@@ -1,0 +1,28 @@
+{
+  "name": "homework-sim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "packager": "electron-packager ./ --platform=win32 --portable"
+  },
+  "keywords": [],
+  "author": "gamer0kayf1n3",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8",
+    "electron": "^23.1.2",
+    "electron-packager": "^17.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamer0kayf1n3/hw-sim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gamer0kayf1n3/hw-sim/issues"
+  },
+  "homepage": "https://github.com/gamer0kayf1n3/hw-sim#readme",
+  "description": "Homework simulator for your discord rich presence status",
+  "devDependencies": {}
+}

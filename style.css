@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "gg sans";
+    src: url("gg sans/gg_sans_Normal.ttf");
+}
+@font-face {
+    font-family: "gg sans bold";
+    src: url("gg sans/gg_sans_Bold.ttf");
+}
+@font-face {
+    font-family: "gg sans sbold";
+    src: url("gg sans/gg_sans_Semibold.ttf");
+}
+* {
+    font-family: "gg sans";
+}
+body {
+    background-color: black;
+    color: white;
+    width: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
+span {
+    display: block;
+}
+#row1, #row2 {
+    float: left;
+}
+
+#row1 img {
+    height: 75px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#row2 {
+    margin: 15px 0;
+}
+
+#head {
+    font-family: "gg sans bold";
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    display: inline-block;
+
+}
+#title {
+    font-family: "gg sans sbold";
+}
+
+input, textarea {
+    border  : none;
+    outline: none;
+    margin  : 0;
+    width   : 200px;
+    background: none;
+    color: white;
+    display: block;
+    float: left;
+  }

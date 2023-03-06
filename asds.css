@@ -1,0 +1,20 @@
+h1 {
+    /* selector */
+    color: blue;
+    /* declaration 1*/
+    font-size: 12px;
+    /*declaration 2*/
+    /*property: value;*/
+}
+
+div p
+/* all p elements in a div (all descendants) */
+
+div>p
+/* all p elements children of a div */
+
+div+p
+/* all p elements next to a div */
+
+div~p
+/* all p elements after a div */
